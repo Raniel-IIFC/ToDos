@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+/* Brand palette — edit these values to re-theme the whole app. */
+@theme {
+  /* Blue: primary buttons, links, active nav */
+  --color-brand-50: #e6e6ff;
+  --color-brand-200: #b3b3ff;
+  --color-brand-300: #8080ff;
+  --color-brand-500: #3333ff;
+  --color-brand-600: #0000ff;
+  --color-brand-700: #0000cc;
+
+  /* Yellow: pending tasks (always pair with dark text) */
+  --color-sun-400: #f8d106;
+  --color-sun-500: #e0bc00;
+
+  /* Sky blue: completed tasks (always pair with dark text) */
+  --color-sky-100: #d5f2ff;
+  --color-sky-300: #8ad9ff;
+  --color-sky-400: #2ebdff;
+  --color-sky-500: #14a8ec;
+}
