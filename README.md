@@ -2,6 +2,8 @@
 
 ToDos is a responsive, multi-page task and productivity manager. It shows a dashboard of your progress, a searchable and filterable list of tasks, and a detail page for each task, and lets you mark tasks as done or pending. All data is fetched from a public API using TanStack Query.
 
+**Live demo:** https://raniel-to-dos.vercel.app/
+
 ![ToDos dashboard](screenshots/dashboard.png)
 
 ## Features
@@ -138,6 +140,8 @@ src/
 
 React, React Router, TanStack Query, Tailwind CSS, Vite, ESLint.
 
-## Live demo (stretch)
+## Live demo
 
-_Not deployed yet._ `vercel.json` is included so that deep links such as `/tasks/5` work on Vercel.
+Deployed on Vercel: **https://raniel-to-dos.vercel.app/**
+
+`vercel.json` rewrites every path to `index.html`, so deep links such as [/tasks/2](https://raniel-to-dos.vercel.app/tasks/2) work on refresh.
